@@ -1,8 +1,5 @@
 /* eslint-disable */
 import { defaultNavElement } from "@/constants";
-import { fabric } from "fabric";
-import { v4 as uuid4 } from "uuid";
-
 import {
   CanvasMouseDown,
   CanvasMouseMove,
@@ -12,7 +9,10 @@ import {
   CanvasPathCreated,
   CanvasSelectionCreated,
   RenderCanvas,
-} from "@/types/type";
+} from "@/types";
+import { fabric } from "fabric";
+import { v4 as uuid4 } from "uuid";
+
 import { createSpecificShape } from "./shapes";
 
 // initialize fabric canvas

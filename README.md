@@ -12,13 +12,13 @@
 
 ## A collaborative design tool for teams who build digital products
 
-- Currently in development
-
 </div>
+
+- Currently in development
 
 ## Getting Started
 
-```bash
+```csharp
 pnpm i
 pnpm dev
 ```

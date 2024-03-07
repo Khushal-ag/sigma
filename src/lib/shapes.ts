@@ -1,13 +1,12 @@
 /* eslint-disable */
-import { fabric } from "fabric";
-import { v4 as uuidv4 } from "uuid";
-
 import {
   CustomFabricObject,
   ElementDirection,
   ImageUpload,
   ModifyShape,
-} from "@/types/type";
+} from "@/types";
+import { fabric } from "fabric";
+import { v4 as uuidv4 } from "uuid";
 
 export const createRectangle = (pointer: PointerEvent) => {
   const rect = new fabric.Rect({
