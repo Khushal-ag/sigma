@@ -40,7 +40,7 @@ dependencies:
     version: 18.3.1(react@18.3.1)
   tailwindcss-animate:
     specifier: ^1.0.7
-    version: 1.0.7(tailwindcss@3.4.9)
+    version: 1.0.7(tailwindcss@3.4.10)
   uuid:
     specifier: ^9.0.1
     version: 9.0.1
@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^5.3.8
     version: 5.3.8
   '@types/node':
-    specifier: ^20.14.15
-    version: 20.14.15
+    specifier: ^20.16.1
+    version: 20.16.1
   '@types/react':
     specifier: ^18.3.3
     version: 18.3.3
@@ -84,7 +84,7 @@ devDependencies:
     version: 9.1.0(eslint@8.57.0)
   eslint-plugin-tailwindcss:
     specifier: ^3.17.4
-    version: 3.17.4(tailwindcss@3.4.9)
+    version: 3.17.4(tailwindcss@3.4.10)
   postcss:
     specifier: ^8.4.41
     version: 8.4.41
@@ -95,11 +95,11 @@ devDependencies:
     specifier: ^0.6.6
     version: 0.6.6(@ianvs/prettier-plugin-sort-imports@4.3.1)(prettier@3.3.3)
   tailwind-merge:
-    specifier: ^2.5.0
-    version: 2.5.0
+    specifier: ^2.5.2
+    version: 2.5.2
   tailwindcss:
-    specifier: ^3.4.9
-    version: 3.4.9
+    specifier: ^3.4.10
+    version: 3.4.10
   typescript:
     specifier: ^5.5.4
     version: 5.5.4
@@ -1263,10 +1263,10 @@ packages:
     resolution: {integrity: sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==}
     dev: false
 
-  /@types/node@20.14.15:
-    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
+  /@types/node@20.16.1:
+    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.6
     dev: true
 
   /@types/prop-types@15.7.11:
@@ -2545,7 +2545,7 @@ packages:
       string.prototype.matchall: 4.0.10
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.9):
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.10):
     resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -2553,7 +2553,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.41
-      tailwindcss: 3.4.9
+      tailwindcss: 3.4.10
     dev: true
 
   /eslint-scope@7.2.2:
@@ -4588,20 +4588,20 @@ packages:
     dev: false
     optional: true
 
-  /tailwind-merge@2.5.0:
-    resolution: {integrity: sha512-a6Q/isR5XAo9IR7Hjh80BQDkn8PG9ONJpSO/U3vGzdKyKG125lPHNXdiPfeQ5X0EOG0qKlS/0qnxdBYkLlD6tA==}
+  /tailwind-merge@2.5.2:
+    resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
     dev: true
 
-  /tailwindcss-animate@1.0.7(tailwindcss@3.4.9):
+  /tailwindcss-animate@1.0.7(tailwindcss@3.4.10):
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.4.9
+      tailwindcss: 3.4.10
     dev: false
 
-  /tailwindcss@3.4.9:
-    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
+  /tailwindcss@3.4.10:
+    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -4813,8 +4813,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  /undici-types@6.19.6:
+    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
     dev: true
 
   /universalify@0.2.0:
