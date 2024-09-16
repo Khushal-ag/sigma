@@ -26,7 +26,7 @@
     "clsx": "^2.1.1",
     "fabric": "^5.4.0",
     "jspdf": "^2.5.1",
-    "next": "14.2.8",
+    "next": "14.2.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwindcss-animate": "^1.0.7",
@@ -43,14 +43,14 @@
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.8",
+    "eslint-config-next": "14.2.11",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "postcss": "^8.4.45",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
   }
 }
