@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@liveblocks/client':
-    specifier: ^1.12.0
-    version: 1.12.0
+    specifier: ^2.9.1
+    version: 2.9.1
   '@liveblocks/react':
     specifier: ^1.12.0
     version: 1.12.0(react@18.3.1)
@@ -459,8 +459,18 @@ packages:
       '@liveblocks/core': 1.12.0
     dev: false
 
+  /@liveblocks/client@2.9.1:
+    resolution: {integrity: sha512-aUgRluyJszMqSvkIoFHFh7xYOymY4Aw8a9zmabbQnUtDc06iD9eS7gsOHPxd6bdIK46vkc5vdyUK7viFeunUiw==}
+    dependencies:
+      '@liveblocks/core': 2.9.1
+    dev: false
+
   /@liveblocks/core@1.12.0:
     resolution: {integrity: sha512-cPuVZwSh+EBnJL8DA999h4QDNSlOMFyxHPPHm9qVBf9Cl+NY7/Bg3cyKFiHOki6g7y8dQj8No2tpnAHWdqqalA==}
+    dev: false
+
+  /@liveblocks/core@2.9.1:
+    resolution: {integrity: sha512-9bxo/ZfG2tTW07KKWh1hv4s6Rpu8qsZfROOKPxpYU3O6e7emmEdend1MTN05oTfSe+HmEtUXzZjuWNK5OTkxvw==}
     dev: false
 
   /@liveblocks/react-comments@1.12.0(@types/react-dom@18.3.1)(@types/react@18.3.11)(react-dom@18.3.1)(react@18.3.1):
