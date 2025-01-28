@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.12.0
     version: 1.12.0
   '@liveblocks/react':
-    specifier: ^1.12.0
-    version: 1.12.0(react@18.3.1)
+    specifier: ^2.16.2
+    version: 2.16.2(react@18.3.1)
   '@liveblocks/react-comments':
     specifier: ^1.12.0
     version: 1.12.0(@types/react-dom@18.3.5)(@types/react@18.3.18)(react-dom@18.3.1)(react@18.3.1)
@@ -343,8 +343,18 @@ packages:
       '@liveblocks/core': 1.12.0
     dev: false
 
+  /@liveblocks/client@2.16.2:
+    resolution: {integrity: sha512-EHoNFESZEYw3FatsWUPjMQyUGc7o5439SKG6cwavRm0OxvN2Nl3Eg+kYoRQQ9VgV73RgrEvqjErUbS8Eaxyo3A==}
+    dependencies:
+      '@liveblocks/core': 2.16.2
+    dev: false
+
   /@liveblocks/core@1.12.0:
     resolution: {integrity: sha512-cPuVZwSh+EBnJL8DA999h4QDNSlOMFyxHPPHm9qVBf9Cl+NY7/Bg3cyKFiHOki6g7y8dQj8No2tpnAHWdqqalA==}
+    dev: false
+
+  /@liveblocks/core@2.16.2:
+    resolution: {integrity: sha512-gtwzGii/w070FE+izaXDsq8dMYISnb5QKb9ulx5wxfTYm9zEfJSlGi2ffWwbsNL7cJ/4fbqOZm2LhFf5e0OAQQ==}
     dev: false
 
   /@liveblocks/react-comments@1.12.0(@types/react-dom@18.3.5)(@types/react@18.3.18)(react-dom@18.3.1)(react@18.3.1):
@@ -384,6 +394,16 @@ packages:
       nanoid: 3.3.7
       react: 18.3.1
       use-sync-external-store: 1.2.0(react@18.3.1)
+    dev: false
+
+  /@liveblocks/react@2.16.2(react@18.3.1):
+    resolution: {integrity: sha512-f7MlLTBxAw7ZAsXPBvoAuydc9FFFBWUglVL4IxQVTDHNiTu0AdLm058+3D5EFsuB62uoZQ5i7B7zZmLn9VAvZQ==}
+    peerDependencies:
+      react: ^18 || ^19 || ^19.0.0-rc
+    dependencies:
+      '@liveblocks/client': 2.16.2
+      '@liveblocks/core': 2.16.2
+      react: 18.3.1
     dev: false
 
   /@mapbox/node-pre-gyp@1.0.11:
