@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@liveblocks/client':
-    specifier: ^1.12.0
-    version: 1.12.0
+    specifier: ^3.1.2
+    version: 3.1.2(@types/json-schema@7.0.15)
   '@liveblocks/react':
     specifier: ^1.12.0
     version: 1.12.0(react@18.3.1)
@@ -343,8 +343,24 @@ packages:
       '@liveblocks/core': 1.12.0
     dev: false
 
+  /@liveblocks/client@3.1.2(@types/json-schema@7.0.15):
+    resolution: {integrity: sha512-+NsVIFH/ANb6fwJx5EV4KwtJQx64sp+CTw5Nrwhf06j8in55C07Pt0nG/jVGXrDA/7TfxmutVRGBX4HhoQPn3g==}
+    dependencies:
+      '@liveblocks/core': 3.1.2(@types/json-schema@7.0.15)
+    transitivePeerDependencies:
+      - '@types/json-schema'
+    dev: false
+
   /@liveblocks/core@1.12.0:
     resolution: {integrity: sha512-cPuVZwSh+EBnJL8DA999h4QDNSlOMFyxHPPHm9qVBf9Cl+NY7/Bg3cyKFiHOki6g7y8dQj8No2tpnAHWdqqalA==}
+    dev: false
+
+  /@liveblocks/core@3.1.2(@types/json-schema@7.0.15):
+    resolution: {integrity: sha512-2Az6+KW0MZSZMx8+U4RGPe3gkN0EP/XXwKbSX7dITxcxlKGvWoxxP4DkymT3jk/yNY7RTjijoJiyGwa5spjuVQ==}
+    peerDependencies:
+      '@types/json-schema': ^7
+    dependencies:
+      '@types/json-schema': 7.0.15
     dev: false
 
   /@liveblocks/react-comments@1.12.0(@types/react-dom@18.3.7)(@types/react@18.3.23)(react-dom@18.3.1)(react@18.3.1):
@@ -1139,6 +1155,10 @@ packages:
 
   /@types/is-hotkey@0.1.10:
     resolution: {integrity: sha512-RvC8KMw5BCac1NvRRyaHgMMEtBaZ6wh0pyPTBu7izn4Sj/AX9Y4aXU5c7rX8PnM/knsuUpC1IeoBkANtxBypsQ==}
+    dev: false
+
+  /@types/json-schema@7.0.15:
+    resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: false
 
   /@types/json5@0.0.29:
