@@ -9,8 +9,8 @@ dependencies:
     specifier: ^1.12.0
     version: 1.12.0
   '@liveblocks/react':
-    specifier: ^1.12.0
-    version: 1.12.0(react@18.3.1)
+    specifier: ^3.2.1
+    version: 3.2.1(@types/json-schema@7.0.15)(@types/react-dom@18.3.7)(@types/react@18.3.23)(react@18.3.1)
   '@liveblocks/react-comments':
     specifier: ^1.12.0
     version: 1.12.0(@types/react-dom@18.3.7)(@types/react@18.3.23)(react-dom@18.3.1)(react@18.3.1)
@@ -346,8 +346,24 @@ packages:
       '@liveblocks/core': 1.12.0
     dev: false
 
+  /@liveblocks/client@3.2.1(@types/json-schema@7.0.15):
+    resolution: {integrity: sha512-l0QW+pl6BnURY2hIKr15GVySSkKOUZJ79Y1aCn2h3hZSCOXt+4QHqY6yZovUY/vO8h+uwqZBYdTrY1/DSJ2CBQ==}
+    dependencies:
+      '@liveblocks/core': 3.2.1(@types/json-schema@7.0.15)
+    transitivePeerDependencies:
+      - '@types/json-schema'
+    dev: false
+
   /@liveblocks/core@1.12.0:
     resolution: {integrity: sha512-cPuVZwSh+EBnJL8DA999h4QDNSlOMFyxHPPHm9qVBf9Cl+NY7/Bg3cyKFiHOki6g7y8dQj8No2tpnAHWdqqalA==}
+    dev: false
+
+  /@liveblocks/core@3.2.1(@types/json-schema@7.0.15):
+    resolution: {integrity: sha512-Xy0zMkjrlhIdmLEhDYpOZQVAp8JE4bhfHdBE2zGYxFuyy0OG7g+zoVPYa9nnBxmrTKvALzOpKIx3kgINGcz3Dg==}
+    peerDependencies:
+      '@types/json-schema': ^7
+    dependencies:
+      '@types/json-schema': 7.0.15
     dev: false
 
   /@liveblocks/react-comments@1.12.0(@types/react-dom@18.3.7)(@types/react@18.3.23)(react-dom@18.3.1)(react@18.3.1):
@@ -387,6 +403,27 @@ packages:
       nanoid: 3.3.7
       react: 18.3.1
       use-sync-external-store: 1.2.0(react@18.3.1)
+    dev: false
+
+  /@liveblocks/react@3.2.1(@types/json-schema@7.0.15)(@types/react-dom@18.3.7)(@types/react@18.3.23)(react@18.3.1):
+    resolution: {integrity: sha512-x1Rl/sqGIoAi1g3ydnUOvn2nWZSJ2/pZ7Z+uDpEY8q05Rem/u5R6KtI4OWKC1UkO6OLjK1XN8Zdci62dF4aauw==}
+    peerDependencies:
+      '@types/react': '*'
+      '@types/react-dom': '*'
+      react: ^18 || ^19 || ^19.0.0-rc
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+    dependencies:
+      '@liveblocks/client': 3.2.1(@types/json-schema@7.0.15)
+      '@liveblocks/core': 3.2.1(@types/json-schema@7.0.15)
+      '@types/react': 18.3.23
+      '@types/react-dom': 18.3.7(@types/react@18.3.23)
+      react: 18.3.1
+    transitivePeerDependencies:
+      - '@types/json-schema'
     dev: false
 
   /@mapbox/node-pre-gyp@1.0.11:
@@ -1142,6 +1179,10 @@ packages:
 
   /@types/is-hotkey@0.1.10:
     resolution: {integrity: sha512-RvC8KMw5BCac1NvRRyaHgMMEtBaZ6wh0pyPTBu7izn4Sj/AX9Y4aXU5c7rX8PnM/knsuUpC1IeoBkANtxBypsQ==}
+    dev: false
+
+  /@types/json-schema@7.0.15:
+    resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: false
 
   /@types/json5@0.0.29:
